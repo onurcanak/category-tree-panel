@@ -1,0 +1,106 @@
+/* css içerisinde kullanılacak global variable'lar  */
+:root {
+    --panelHeight : 250px;
+    --panelTopMargin : 5px;
+    --panelWidth : 5%;  /* daha sonra js içerisinde değiştiriliyor (kırılım sayısına göre dinamik olarak) */
+}
+
+
+/* scroll bar için */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d9d9d9;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #cccccc; 
+}
+
+/* input'lardaki default olarak highlight olma problemi için */
+.form-control:focus{
+    border-color: #cccccc;
+    -webkit-box-shadow: none;
+}
+
+/*  yanyana açılan paneller  */
+.filterPanelTab{
+    margin: var(--panelTopMargin) 0px 0px 20px;
+    height: 100%;
+    width: var(--panelWidth);
+    float: left;
+    max-height: var(--panelHeight);
+    position: relative;
+}
+
+/*  panel başlıkları    */
+.tabHeaderContainer{
+    position: fixed;
+    height: 40px;
+    width: inherit;
+    z-index: 10;
+    background-color: white;
+}
+.tabHeaderContainer .tabHeaderText{
+    user-select: none;
+    color : #a6a6a6;
+    font-weight: 500;
+}
+
+/* panellerde option'ların olduğu kısım */
+.tabContentContainer{
+    margin-top: 40px;
+    overflow-y: auto;
+}
+
+
+/*  panelde seçilebilen elemanlar (option'lar) */
+.tabOption{
+    cursor: pointer;
+    user-select: none;
+    border : 0px !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.tabOption.active{
+    background-color : #e6e6e6 !important;
+    font-weight: 500;
+    color: black;
+}
+
+.tabOption.active:hover{
+    background-color : #e6e6e6 !important
+}
+
+.tabOption:hover{
+    background-color: #f8f8f8 !important;
+}
+
+/* tab'ler arasında bulunan dik çizgi  */
+.verticalSeperator{
+    float: left;
+    border-left: 1px solid #cccccc;
+    height: var(--panelHeight);
+    margin-left: 5px;
+    margin-top: var(--panelTopMargin);
+}
+
+/* search box */
+.searchIcon{
+    margin: 15px 5px 5px 10px;
+}
+
+.searchBox{
+    border-radius: 30px !important;
+    margin: 10px 0px 0px 6px;
+    width: inherit;
+    box-shadow: 2px 2px 2px #e6e6e6;
+}

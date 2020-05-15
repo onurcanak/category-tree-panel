@@ -1,0 +1,125 @@
+[
+    {
+        "name": "Phone",
+        "hierarchicalIndex": "0",
+        "category": "root",
+        "children": [
+            {
+                "name": "Mobile Phones",
+                "hierarchicalIndex": "1",
+                "category": "mobilephones",
+                "children": [
+                    {
+                        "name": "Apple",
+                        "hierarchicalIndex": "2",
+                        "category": "apple",
+                        "children": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "Samsung",
+                        "hierarchicalIndex": "2",
+                        "category": "samsung",
+                        "children": [
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Mobile Phone Accessories",
+                "hierarchicalIndex": "1",
+                "category": "phoneaccessories",
+                "children": [
+                    {
+                        "name": "Phone Cases",
+                        "hierarchicalIndex": "2",
+                        "category": "phonecases",
+                        "children": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "Headphones",
+                        "hierarchicalIndex": "2",
+                        "category": "headphones",
+                        "children": [
+                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Computer",
+        "hierarchicalIndex": "0",
+        "category": "root",
+        "children": [
+            {
+                "name": "Computers",
+                "hierarchicalIndex": "1",
+                "category": "computers",
+                "children": [
+                    {
+                        "name": "Asus",
+                        "hierarchicalIndex": "2",
+                        "category": "asus",
+                        "children": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "Acer",
+                        "hierarchicalIndex": "2",
+                        "category": "acer",
+                        "children": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "Apple",
+                        "hierarchicalIndex": "2",
+                        "category": "acer",
+                        "children": [
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Hardwares",
+                "hierarchicalIndex": "1",
+                "category": "hardwares",
+                "children": [
+                    {
+                        "name": "RAMs",
+                        "hierarchicalIndex": "2",
+                        "category": "rams",
+                        "children": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "CPUs",
+                        "hierarchicalIndex": "2",
+                        "category": "cpus",
+                        "children": [
+                            
+                        ]
+                    },
+                    {
+                        "name": "Graphics Cards",
+                        "hierarchicalIndex": "2",
+                        "category": "graphicscards",
+                        "children": [
+                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+
+]
